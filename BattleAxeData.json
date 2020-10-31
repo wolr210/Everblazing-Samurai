@@ -1,0 +1,191 @@
+{
+  "name": "Battle Axe",
+  "description": "A heavy battle axe.",
+  "modelPath": "BattleAxeModel",
+  "modelOffset": {
+    "x": 2.64,
+    "y": 0.79,
+    "z": 0
+  },
+  "attackPoint": {
+    "x": 3.16,
+    "y": 1.53,
+    "z": 0
+  },
+  "attackRadius": 0.75,
+  "attackNames": [
+    "Cutter 1",
+    "Cutter 2",
+    "Cutter 3",
+    "Rising Cutter",
+    "Falling Cutter",
+    "Dashing Cutter",
+    "Dashing Rising Cutter",
+    "Dashing Falling Cutter",
+    "Aerial Cutter 1",
+    "Aerial Cutter 2",
+    "Aerial Cutter 3",
+    "Aerial Rising Cutter",
+    "Aerial Falling Cutter",
+    "Dashing Aerial Cutter",
+    "Dashing Rising Cutter",
+    "Dashing Falling Cutter"
+  ],
+  "attackDamage": [
+    0.75,
+    0.75,
+    1.5,
+    1.25,
+    1.25,
+    1.75,
+    1.5,
+    1.5,
+    0.5,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    1.5,
+    1.5,
+    1.5
+  ],
+  "attackStartDelay": [
+    350,
+    150,
+    200,
+    300,
+    300,
+    500,
+    400,
+    400,
+    350,
+    150,
+    200,
+    300,
+    300,
+    500,
+    400,
+    400
+  ],
+  "attackFinishDelay": [
+    250,
+    150,
+    300,
+    200,
+    200,
+    400,
+    300,
+    300,
+    250,
+    150,
+    300,
+    200,
+    200,
+    400,
+    300,
+    300
+  ],
+  "knockback": [
+    {
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "x": 175.0,
+      "y": 15.0
+    },
+    {
+      "x": 7.0,
+      "y": 170.0
+    },
+    {
+      "x": 7.0,
+      "y": -170.0
+    },
+    {
+      "x": 300.0,
+      "y": 30.0
+    },
+    {
+      "x": 14.0,
+      "y": 340.0
+    },
+    {
+      "x": 14.0,
+      "y": -340.0
+    },
+    {
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "x": 150.0,
+      "y": 10.0
+    },
+    {
+      "x": 10.0,
+      "y": 125.0
+    },
+    {
+      "x": 10.0,
+      "y": -125.0
+    },
+    {
+      "x": 300.0,
+      "y": 20.0
+    },
+    {
+      "x": 20.0,
+      "y": 250.0
+    },
+    {
+      "x": 20.0,
+      "y": -250.0
+    }
+  ],
+  "knockbackMultiplier": 8,
+  "freezesPlayer": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "freezesEnemy": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
+}

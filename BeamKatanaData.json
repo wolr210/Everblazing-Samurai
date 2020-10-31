@@ -1,0 +1,192 @@
+{
+  "name": "Beam Katana",
+  "description": "A beam katana.",
+  "modelPath": "BeamKatanaModel",
+  "modelOffset": {
+    "x": 2.35,
+    "y": 0.18,
+    "z": 0
+  },
+  "attackPoint": {
+    "x": 3.16,
+    "y": 1.53,
+    "z": 0
+  },
+  "attackRadius": 0.4,
+  "attackNames": [
+      "Crescent Slash 1",
+      "Crescent Slash 2",
+      "Crescent Slash 3",
+      "Rising Slash",
+      "Falling Slash",
+      "Dashing Crescent Slash",
+      "Dashing Rising Slash",
+      "Dashing Falling Slash",
+      "Aerial Crescent Slash 1",
+      "Aerial Crescent Slash 2",
+      "Aerial Crescent Slash 3",
+      "Aerial Rising Slash",
+      "Aerial Falling Slash",
+      "Dashing Aerial Crescent Slash",
+      "Dashing Aerial Rising Slash",
+      "Dashing Aerial Falling Slash"
+    ],
+  "attackDamage": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.5,
+      1.5,
+      1.5,
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.5,
+      1.5,
+      1.5
+    ],
+  "attackStartDelay": [
+      100,
+      100,
+      100,
+      150,
+      150,
+      200,
+      300,
+      300,
+      100,
+      100,
+      100,
+      150,
+      150,
+      200,
+      300,
+      300
+    ],
+  "attackFinishDelay": [
+    0,
+    0,
+    200,
+    200,
+    200,
+    400,
+    400,
+    400,
+    0,
+    0,
+    200,
+    200,
+    200,
+    400,
+    400,
+    400
+  ],
+  "knockback": [
+      {
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "x": 150.0,
+        "y": 15.0
+      },
+      {
+        "x": 5.0,
+        "y": 150.0
+      },
+      {
+        "x": 5.0,
+        "y": -150.0
+      },
+      {
+        "x": 300.0,
+        "y": 30.0
+      },
+      {
+        "x": 10.0,
+        "y": 300.0
+      },
+      {
+        "x": 10.0,
+        "y": -300.0
+      },
+      {
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "x": 150.0,
+        "y": 15.0
+      },
+      {
+        "x": 5.0,
+        "y": 150.0
+      },
+      {
+        "x": 5.0,
+        "y": -150.0
+      },
+      {
+        "x": 300.0,
+        "y": 30.0
+      },
+      {
+        "x": 10.0,
+        "y": 300.0
+      },
+      {
+        "x": 10.0,
+        "y": -300.0
+      }
+    ],
+  "knockbackMultiplier": 7.5,
+  "freezesPlayer": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "freezesEnemy": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
+
+}

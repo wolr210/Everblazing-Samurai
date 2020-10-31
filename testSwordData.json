@@ -1,0 +1,162 @@
+{
+  "name": "Test Sword",
+  "description": "Test sword",
+  "attackRadius": 0.5,
+  "attackNames": [
+    "Forward Grounded 1",
+    "Forward Grounded 2",
+    "Forward Grounded 3",
+    "Upward Grounded",
+    "Downward Grounded",
+    "Forward Grounded Dashing",
+    "Upward Grounded Dashing",
+    "Downward Grounded Dashing",
+    "Forward Aerial 1",
+    "Forward Aerial 2",
+    "Forward Aerial 3",
+    "Upward Aerial",
+    "Downward Aerial",
+    "Forward Aerial Dashing",
+    "Upward Aerial Dashing",
+    "Downward Aerial Dashing"
+  ],
+  "attackDamage": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "attackStartDelay": [
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200
+  ],
+  "attackFinishDelay": [
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200
+  ],
+  "knockback": [
+    {
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "x": 100.0,
+      "y": 10.0
+    },
+    {
+      "x": 10.0,
+      "y": 100.0
+    },
+    {
+      "x": 10.0,
+      "y": -100.0
+    },
+    {
+      "x": 200.0,
+      "y": 20.0
+    },
+    {
+      "x": 20.0,
+      "y": 200.0
+    },
+    {
+      "x": 20.0,
+      "y": -200.0
+    },
+    {
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "x": 100.0,
+      "y": 10.0
+    },
+    {
+      "x": 10.0,
+      "y": 100.0
+    },
+    {
+      "x": 10.0,
+      "y": -100.0
+    },
+    {
+      "x": 200.0,
+      "y": 20.0
+    },
+    {
+      "x": 20.0,
+      "y": 200.0
+    },
+    {
+      "x": 20.0,
+      "y": -200.0
+    }
+  ],
+  "knockbackMultiplier": 7,
+  "freezesEnemy": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
+}
